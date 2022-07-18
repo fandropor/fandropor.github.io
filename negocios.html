@@ -5,41 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Negocios</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
 
-  <style>
-    body{
-      background-image: url('background.png')
-    }
-  </style>
-
-
+    <!-- Encabezado -->
     <header>
-        <div align="center">
-            <img src="El_Faro_logotipo.png"WIDTH=175>
-            </div>
-      
-            <div align="center">
-              <h1>EL FARO</h1>
-            </div>
-    </header>
+
+      <div class="banner">
+        <div class="capa"></div>
+        <div class="info">
+
+          <!-- Relojero -->
+          <section align="right">
+            <h3 id="fecha"></h3>
+            <h4 id="reloj"></h4>
+          </section>
+
+          <!-- Script relojero -->
+          <script src="script.js"></script>
+
+          <img src="El_Faro_logo.png" width="175">
+          <h1>EL FARO</h1>
+
+          <!-- Relojero -->
+          <section align="right">
+            <h3 id="fecha"></h3>
+            <h4 id="reloj"></h4>
+          </section>
+
+          <!-- Script relojero -->
+          <script src="script.js"></script>
+        </div>
+      </div>
+            
+    </header>    
+
+    <!-- Menu del sitio -->
+    <ul id="menuprincipal">
+      <nav>
+       <ul>
+        <li><a href="index.html" id="menu_inicio">Inicio</a></li>
+        <li><a href="deportes.html" id="menu_deporte">Deportes</a></li>
+        <li><a href="negocios.html" id="menu_negocios">Negocios</a></li>
+        <li><a href="contacto.html" id="menu_contacto">Contacto</a></li>
+       </ul>
+      </nav>
+  </ul>
     
-    <nav align="center">
-
-        <a href="index.html">Inicio</a>
-        <a href="deportes.html">Deportes</a>
-        <a href="negocios.html">Negocios</a>
-
-
+    <!-- Articulos -->
     <main>
 
         <article>
-            <h2 align="center" id="negocios"><font face="arial"> - NEGOCIOS - </font></h2>
-              <table border="1">
+            <h2 align="center" id="Negocios"><font face="arial"> - NEGOCIOS - </font></h2>
+              <table align="center" border="1">
                 <caption></caption>
                 <tr>
-                  <th colspan="2">1.- Emprendimiento e innovación: llega a Chile el programa de escalamiento "Discovery-A" para startups</th>
+                  <th colspan="2">
+                    1.- Emprendimiento e innovación: llega a Chile el programa de escalamiento "Discovery-A" para startups</th>
                 </tr>
                 <tr>
                   <td align="center">Categoria Negocios</td>
@@ -53,42 +88,41 @@
           </article> <br>
     
           <article>
-              <table border="1">
-                <caption></caption>
-                <tr>
-                  <th colspan="2">2.- Plataforma de pagos Getnet de Santander llega al 97% de comunas en Chile</th>
-                </tr>
-                <tr>
-                  <td align="center">Categoria Negocios</td>
-                </tr>
-                <tr>
-                  <td><img src="9.- Getnet.png" width="200" height="200"></td>
-                  <td align="left">La plataforma de pagos del Santander ha realizado en los últimos doce meses más de 120 millones de transacciones por un total de 2,1 billones de pesos, que corresponde a cerca de USD 2.600 millones.</td>
-                </tr>
-              </table>
+              <table align="center" border="1">
+                  <caption></caption>
+                  <tr>
+                    <th colspan="2">2.- Plataforma de pagos Getnet de Santander llega al 97% de comunas en Chile</th>
+                  </tr>
+                  <tr>
+                    <td align="center">Categoria Negocios</td>
+                  </tr>
+                  <tr>
+                    <td><img src="9.- Getnet.png" width="200" height="200"></td>
+                    <td align="left">	La plataforma de pagos del Santander ha realizado en los últimos doce meses más de 120 millones de transacciones por un total de 2,1 billones de pesos, que corresponde a cerca de USD 2.600 millones.</td>
+                  </tr>
+                </table>
     
     
           </article> <br>
     
           <article>
-            <table border="1">
-              <caption></caption>
-              <tr>
-                <th colspan="2">3.- Cada vez más empresas abren sus fronteras para comercializar</th>
-              </tr>
-              <tr>
-                <td align="center">Categoria Negocios</td>
-              </tr>
-              <tr>
-                <td><img src="10.- Cada vez más empresas.png" width="200" height="200"></td>
-                <td align="left">Los profesionales en negocios internacionales son cada vez más buscados por las empresas que buscan llevar sus productos a todo el mundo.</td>
-              </tr>
-            </table>
-    
-    
-          </article> <br>
+              <table align="center" border="1">
+                  <caption></caption>
+                  <tr>
+                    <th colspan="2">3.- Cada vez más empresas abren sus fronteras para comercializar</th>
+                  </tr>
+                  <tr>
+                    <td align="center">Categoria Negocios</td>
+                  </tr>
+                  <tr>
+                    <td><img src="10.- Cada vez más empresas.png" width="200" height="200"></td>
+                    <td align="left">	Los profesionales en negocios internacionales son cada vez más buscados por las empresas que buscan llevar sus productos a todo el mundo.</td>
+                  </tr>
+              </table>
+        </main>
 
-          <aside align="right">
+        <!-- Contenido relacioando -->
+        <aside align="right">
             <h3><font face="arial">Relacionado</font></h3>
     
             <ul>
@@ -100,13 +134,10 @@
             </ul>
           </aside>
 
-    </main>
-
-    <footer align="left">
-        <p>©Copyright 2022 Todos los derechos reservados.</p>
-      </footer>
-  
-
+          <!-- Pie de pagina -->
+          <footer align="left">
+            <p>©Copyright 2022 Todos los derechos reservados.</p>
+          </footer>
 
 </body>
 </html>

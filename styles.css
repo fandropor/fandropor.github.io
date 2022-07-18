@@ -1,0 +1,193 @@
+
+/* Estilos Titulos */
+h1 {
+    color: rgb(35, 66, 179);
+    font-size: 300%;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+h2 {
+    color: rgb(35, 66, 179);
+    font-family: 'Cinzel Decorative', cursive;
+    background-color: #f5f5f5;
+    
+}
+
+
+/* Estilos Cuerpo */
+body {
+
+    background-color: #f5f5f5;
+    
+}
+
+
+/* Estilos Pie de Pagina */
+footer {
+    background-color: #c9d2d0;
+    color:  #31231e;
+}
+
+p{
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Estilos Encabezado */
+header {
+
+    justify-content:space-around;
+}
+
+
+/* Estilos Tablas */
+table {
+    background-color: rgba(35, 66, 179, 0.122);
+    text-align: left;
+    border-style: hidden;
+    display: flex;
+    font-family:'Arial';
+    width: 75%;
+    border-radius: 5px 30px 45px 60px;
+}
+
+th {
+    padding: 20px;
+    background-color: rgb(35, 66, 179);
+    border-bottom: solid 5px #1e396f;
+    color: white;
+    border-radius: 5px 30px 45px 60px;
+    display: flex;
+}
+
+td {
+    border-style: hidden;
+    border-radius: 5px 30px 45px 60px;
+    display: flex;
+    padding: 5px;
+}
+
+tr{
+    border-style: hidden;
+    border-radius: 5px 30px 45px 60px;
+    display: flex;
+    padding: 5px;
+}
+
+audio{
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    object-fit: contain;
+    padding: 5px;
+    display: flex;
+    }
+
+
+/* Estilos Relojero */
+h3, h4 {
+    color: rgb(35, 66, 179);
+    font-size: 100%;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+/* Estilos Referenciales */
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+
+/* Estilos Menu Principal */
+#menuprincipal {
+    text-align: center;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    background-color: rgb(35, 66, 179);
+} 
+
+#menuprincipal ul li {
+    display: inline-block;
+    text-align: center;
+    
+}  
+    
+#menuprincipal ul li a{
+   color: white;
+   text-decoration: none;
+   display: block;
+   padding: 10px;
+   font-family: 'Montserrat';
+   font-weight: lighter;
+} 
+    
+#menuprincipal ul li a:hover{
+    background-color: rgb(60, 137, 245);
+} 
+         
+
+/* Estilos Banner */
+
+.banner{
+	width: 100%;
+	height: 550px;
+	animation: banner 10s infinite linear alternate;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes banner{
+	0%, 20%{
+		background-image: url(banner1.jpeg);
+	}
+	25%, 45%{
+		background-image: url("banner2.jpeg");
+	}
+	50%, 70%{
+		background-image: url("banner3.jpeg");
+	}
+	75%, 100%{
+		background-image: url("banner4.jpeg");
+	}
+}
+.capa{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+
+.info{
+	z-index: 1;
+	width: 100%;
+	max-width: 550px;
+	text-align: center;
+}
+.info h1{
+	color: rgb(35, 66, 179);
+	font-size: 45px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+.info p{
+	color: #c7c7c7;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+.info a{
+	color: #fff;
+	text-decoration: none;
+	background: #3088e0;
+	padding: 16px 37px;
+	display: inline-block;
+	border-radius: 50px;
+}
