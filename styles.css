@@ -85,6 +85,15 @@ audio{
     display: flex;
     }
 
+video{
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    object-fit: contain;
+    padding: 5px;
+    display: flex;
+}
+
 
 /* Estilos Relojero */
 h3, h4 {
