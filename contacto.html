@@ -15,25 +15,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
 
     <!-- Hoja de estilos -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Contacto</title>
 </head>
 <body>
+
+  <!-- Encabezado -->
+  <header>
+
+    <div class="banner">
+      <div class="capa"></div>
+      <div class="info">
+
+        <!-- Relojero -->
+        <section align="right">
+          <h3 id="fecha"></h3>
+          <h4 id="reloj"></h4>
+        </section>
+
+        <!-- Script relojero -->
+        <script src="script.js"></script>
+
+        <img src="El_Faro_logo.png" width="175">
+        <h1>EL FARO</h1>
+
+        <!-- Relojero -->
+        <section align="right">
+          <h3 id="fecha"></h3>
+          <h4 id="reloj"></h4>
+        </section>
+
+        <!-- Script relojero -->
+        <script src="script.js"></script>
+      </div>
+    </div>
+          
+  </header>   
+
+        <!-- Menu del sitio -->
+        <ul id="menuprincipal">
+          <nav>
+           <ul>
+            <li><a href="index.html" id="menu_inicio">Inicio</a></li>
+            <li><a href="deportes.html" id="menu_deporte">Deportes</a></li>
+            <li><a href="negocios.html" id="menu_negocios">Negocios</a></li>
+            <li><a href="contacto.html" id="menu_contacto">Contacto</a></li>
+           </ul>
+          </nav>
+      </ul>
 
     <!-- Formulario de contacto -->
     <form action="/my-handling-form-page" method="post">
         <ul>
          <li>
        <label for="name">Nombre:</label>
-       <input type="text" id="name" name="user_name">
+       <input type="text" id="name" name="user_name" placeholder="Ingresa tu nombre">
          </li>
          <li>
        <label for="mail">Correo electrónico:</label>
-       <input type="email" id="mail" name="user_mail">
+       <input type="email" id="mail" name="user_mail" placeholder="Ingresa tu correo electronico">
          </li>
          <li>
        <label for="msg">Mensaje:</label>
-       <textarea id="msg" name="user_message"></textarea>
+       <textarea id="msg" name="user_message" placeholder="Aqui escribe tu mensaje"></textarea>
          </li>
         </ul>
            

@@ -200,3 +200,72 @@ ul li{
 	display: inline-block;
 	border-radius: 50px;
 }
+
+/* Formulario de Contacto */
+
+form {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    padding: 50px;
+}
+
+.fcc-btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(35, 66, 179);
+    color: white;
+    padding: 15px 75px;
+    text-decoration: none;
+    border-radius: 5px 30px 45px 60px;
+    border-bottom: solid 5px #1e396f;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .fcc-btn:hover {
+    background-color: rgb(60, 137, 245);
+  }
+
+  li {
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  button {
+    background-color: rgb(35, 66, 179);
+    color: white;
+    padding: 15px 65px;
+    text-decoration: none;
+    border-radius: 45px 60px  5px 30px;
+    border-bottom: solid 5px #1e396f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+  }
+  
+  button:hover {
+    background-color:  rgb(60, 137, 245);
+  }
+
+  label {
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    padding: 10px;
+  }
+
+  input {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+
+  textarea {
+    width: 750px;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif
+  }
